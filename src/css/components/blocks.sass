@@ -1,0 +1,59 @@
+.wp-block-button
+    .wp-block-button__link
+        @apply bg-primary hover:bg-secondary text-white hover:text-white hover:no-underline rounded-xl mb-8 shadow-md
+        transition: all ease-in .3s
+.alignwide
+    max-width: 1200px
+    margin-left: auto
+    margin-right: auto
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.alignfull
+    width: 100%
+    position: relative
+    //left: 50%
+    //right: 50%
+    //margin-left: -50vw
+    //margin-right: -50vw
+.front-page-content
+    > article
+        > .entry-content    
+            > p,
+            > p.has-text-align-center,
+            > p.has-text-align-right,
+            > p.has-text-align-left,
+            > h2.wp-block-heading,
+            > h3.wp-block-heading,
+            > h4.wp-block-heading,
+            > .wp-block-buttons,
+            >ul,
+            >ol
+                max-width: 1200px
+                margin-left: auto
+                margin-right: auto
+                padding-left: 1.5rem
+                padding-right: 1.5rem
+.front-page-content
+    > article
+        > .entry-content
+            >.wp-block-list
+                padding-left: 4.5rem!important
+.has-primary-background-color
+    @apply bg-primary
+.has-primary-color
+    @apply text-primary
+
+// Content Blocks on posts
+.entry-content
+    figure
+        @apply mb-8
+        figcaption
+            @apply text-sm
+    blockquote
+        @apply mb-8
+    pre.wp-block-code
+        @apply mb-8
+    details
+        @apply mb-8
+    .wp-block-pullquote
+        @apply bg-gray-300

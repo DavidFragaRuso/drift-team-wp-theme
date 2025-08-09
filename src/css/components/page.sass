@@ -1,0 +1,29 @@
+// FRONT PAGE CSS
+.front-page-content
+    .hero
+        @apply h-[350px] md:h-[500px] bg-[url('./public/imgs/amg-gt-s-mercedes-drift.webp')] bg-no-repeat bg-center bg-cover mb-8
+        .filter
+            @apply bg-gradient-to-r from-black/25 md:from-black/35 to-black/60 md:to-black/80 h-full pt-[90px] md:pt-[125px]
+            #svg1
+                width: 100%
+                margin-left: auto
+                margin-right: auto
+                display: block
+                height: auto
+                @media screen and (min-width:768px)
+                    width: 600px
+                    margin-right: 0
+                @media screen and (min-width:1400px)
+                    width: 750px
+                #path29
+                    fill: black
+                    animation: fill-animation 2s infinite
+                    @keyframes fill-animation
+                        0%
+                            fill: #ff2a2a
+                        100%
+                            fill: transparent
+// PAGE CSS
+.page-header
+    .container
+        //@apply bg-[url('./public/imgs/mandala.svg')] bg-no-repeat bg-[length:280px] bg-[right_-5rem_center] md:bg-[length:580px] md:bg-[right_-5rem_bottom_-16rem] lg:bg-[length:800px] lg:bg-[right_-5rem_bottom_-21rem]
